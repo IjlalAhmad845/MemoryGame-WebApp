@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/homeStyles.css" />
+    <link rel="stylesheet" href="./css/board.css" />
+    <link rel="stylesheet" href="./css/finished.css" />
+
+    <title>Memory Game</title>
+    <script
+      src="https://kit.fontawesome.com/643e1e523e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="title">Memory Game</div>
+    <div class="start">
+      <div class="start-text">START</div>
+    </div>
+
+    <div class="difficulty">
+      <div id="text">Difficulty</div>
+      <div id="easy" class="difficulty-shadow">Easy</div>
+      <div id="medium" class="difficulty-shadow">medium</div>
+      <div id="hard" class="difficulty-shadow">hard</div>
+    </div>
+
+    <div class="score-board">
+      <div class="score-card">
+        Match:
+        <span style="color: rgb(122, 208, 122)"> +100</span>
+        Miss:
+        <span style="color: rgb(231, 123, 123)"> -20</span>
+        &nbsp Score:
+        <span id="Score">0</span>
+      </div>
+    </div>
+
+    <div class="board"></div>
+    <script type="module" src="./js/util.js"></script>
+    <script type="module" src="./js/controller.js"></script>
+    <script type="module" src="./js/buildUI.js"></script>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
