@@ -1,2 +1,2 @@
 # MemoryGame-WebApp
-A simple memory game by plain HTML, CSS &amp; JS
+click [Here](https://ijlalahmad845.github.io/MemoryGame-WebApp) to see
