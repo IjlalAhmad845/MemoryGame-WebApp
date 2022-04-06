@@ -8,11 +8,16 @@ body {
 }
 
 .title {
+  position: absolute;
   font-family: cursive;
   font-size: 5rem;
   color: #c69b7b;
   text-align: center;
-  margin-top: 10%;
+  margin: 10% auto 0 auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
   text-shadow: 10px 10px 20px #ffffff67;
 }
