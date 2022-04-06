@@ -8,7 +8,7 @@ const hardBtn = document.querySelector("#hard");
 import buildUI from "./buildUI.js";
 
 startBtn.addEventListener("click", () => {
-  title.style.visibility = "hidden";
+  title.style.display = "none";
   startBtn.style.transform = "rotateY(90deg)";
 
   startBtn.addEventListener("transitionend", () => {
